@@ -331,20 +331,20 @@ body{
 
     .python-icon{
         width: 30%;
-        bottom: 55%;
+        bottom: 50%;
         left: -1%;
     }
 
     .javascript-icon{
         width: 30%;
-        bottom: 55%;
+        bottom: 50%;
         left: 68%;
     }
 
     .circle1 {
         width: 200px;
         height: 200px;
-        top: 27%;
+        top: 30%;
         right: 20%;
 
     }
@@ -352,7 +352,7 @@ body{
     .circle2 {
         width: 250px;
         height: 250px;
-        top: 27%;
+        top: 30%;
         right: 20%;
 
     }
