@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand brand text-light title" href="#">Santiago</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto nav-options">
+                <a class="nav-link active text-light title" aria-current="page" href="#education">Education</a>
+                <a class="nav-link active text-light title" href="#work">Experience</a>
+                <a class="nav-link active text-light title" href="#projects">Projects</a>
+              </div>
+            </div>
+         </nav>
+          <div class="row">
+              <div class="col-lg-4 desktop-only">
+                  <img class="python-icon" src="images/python.png">
+              </div>
+              <div class="col-lg-4 desktop-only">
+                  <div class="circle circle2"></div>
+                  <div class="circle circle1"></div>
+                  <img class="profile-image" src="images/man.png" alt="Your Name">
+
+              </div>
+              <div class="col-lg-4 desktop-only">
+                   <img class="javascript-icon" src="images/java-script.png">
+              </div>
+
+          </div>
+          <!--Mobile Version-->
+          <div class="row">
+              <div class="col-lg-4 mobile-only">
+                  <div class="circle circle2"></div>
+                  <div class="circle circle1"></div>
+                  <img class="profile-image" src="images/man.png" alt="Your Name">
+
+              </div>
+              <div class="col-lg-4 mobile-only">
+                  <img class="python-icon" src="images/python.png">
+              </div>
+              <div class="col-lg-4 mobile-only">
+                   <img class="javascript-icon" src="images/java-script.png">
+              </div>
+
+          </div>
+      </div>
+
+    </section>
+
+    <section class="" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 desktop-only">
+                    <img src="images/man.png">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="about-label title">Hi There!</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="work">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 desktop-only">
+                    <img class="dd-icon" src="images/dicker-data.png">
+                    <button type="button" class="btn btn-outline-secondary job-btn title" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      IT Support Analyst
+                    </button>
+                       <!-- Scrollable modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                          <div class="modal-content">
+                              <div class="modal-header bg-dark-blue">
+                                <h1 class="modal-title fs-5 text-light title" id="staticBackdropLabel">IT Support Analyst (2023 - Present)</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p class="job-description"> As an IT Support Analyst, I provide first-level technical support in a dynamic IT environment, handling issues related to hardware, software, and networking. I have developed expertise in troubleshooting and maintaining security systems, ensuring a secure IT environment. I manage user accounts and office resources using Office 365 and Active Directory, ensuring efficient and seamless operations.<br><br>
+
+                                I excel in diagnosing problems, documenting and resolving issues, and escalating complex problems to senior team members when necessary. I have demonstrated ability to set up hardware, install and configure software, and manage network issues. I am known for exceptional customer service, quick response times, and the ability to clearly explain technical concepts to non-technical staff.<br><br>
+
+                                I actively contribute to team initiatives aimed at improving processes, procedures, and overall IT service delivery. I stay up-to-date with the latest IT trends, technologies, and best practices, continuously improving my skills and knowledge base.</p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 desktop-only">
+                    <h2 class="work-experience-label title">Work Experience</h2>
+                </div>
+        </div>
+
+        <!-- Mobile View-->
+            <div class="col-lg-6 mobile-only">
+                <h2 class="work-experience-label title">Work Experience</h2>
+            </div>
+            <div class="col-lg-6 mobile-only">
+                <img class="dd-icon" src="images/dicker-data.png">
+                <button type="button" class="btn btn-outline-secondary job-btn title" data-bs-toggle="modal" data-bs-target="#staticBackdropMobile">
+                  IT Support Analyst
+                </button>
+                   <!-- Scrollable modal -->
+                <div class="modal fade" id="staticBackdropMobile" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabelMobile" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                          <div class="modal-header bg-dark-blue">
+                            <h1 class="modal-title fs-5 text-light title" id="staticBackdropLabelMobile">IT Support Analyst (2023 - Present)</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="job-description"> As a IT Support Analyst, I provide first-level technical support in a dynamic IT environment, handling issues related to hardware, software, and networking. I have developed expertise in troubleshooting and maintaining security systems, ensuring a secure IT environment. I manage user accounts and office resources using Office 365 and Active Directory, ensuring efficient and seamless operations.<br><br>
+
+                            I excel in diagnosing problems, documenting and resolving issues, and escalating complex problems to senior team members when necessary. I have demonstrated ability to set up hardware, install and configure software, and manage network issues. I am known for exceptional customer service, quick response times, and the ability to clearly explain technical concepts to non-technical staff.<br><br>
+
+                            I actively contribute to team initiatives aimed at improving processes, procedures, and overall IT service delivery. I stay up-to-date with the latest IT trends, technologies, and best practices, continuously improving my skills and knowledge base.</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="coloured" id="education">
+        <div class="container-fluid">
+
+            <h2 class="courses-label mx-auto title">E-Learning</h2>
+
+        <div id="carouselElearning" class="carousel slide e-learning-row desktop-only" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center ">
+                      <div class="col-lg-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/100-days-of-python.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">100 Days of Code: The Complete Python Pro Bootcamp for 2023</h5>
+                                <p class="card-text">Instructed by Dr Angela Yu<br>
+                                Topics covered include data structures, object-oriented programming, and web development with Flask.</p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-4">
+                          <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/webdev.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">The Complete 2023 Web Development Bootcamp</h5>
+                                <p class="card-text">Instructed by Dr Angela Yu Covered HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and React.</p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row justify-content-center">
+                      <div class="col-lg-4">
+                            <div class="card mx-auto border-secondary" style="width: 18rem;">
+                              <img src="images/data-science.jpg" class="card-img-top" alt="...">
+                              <div class="card-body bg-secondary">
+                                <h5 class="card-title text-light cert-name title">Python for Data Science and Machine Learning Bootcamp</h5>
+                                <p class="card-text text-light">Instructed by Jose Portilla.<br> Topics included pandas, NumPy, Matplotlib, Seaborn, SciKit-Learn, and various machine learning algorithms.</p>
+                                <a href="#" class="btn btn-outline-light cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-4">
+                          <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/comptia.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">CompTIA A+ Core 1 (220-1101) Complete Course & Practice Exam</h5>
+                                <p class="card-text">Focused on developing foundational IT skills including networking, hardware, virtualization and cloud computing, and network troubleshooting. </p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselElearning" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselElearning" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <!-- Mobile version -->
+
+        <div id="carouselMobileElearning" class="carousel slide e-learning-row mobile-only" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center ">
+                      <div class="col-lg-12">
+                            <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/100-days-of-python.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">100 Days of Code: The Complete Python Pro Bootcamp for 2023</h5>
+                                <p class="card-text">Instructed by Dr Angela Yu<br>
+                                Topics covered include data structures, object-oriented programming, and web development with Flask.</p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="row justify-content-center">
+                       <div class="col-lg-12">
+                          <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/webdev.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">The Complete 2023 Web Development Bootcamp</h5>
+                                <p class="card-text">Instructed by Dr Angela Yu Covered HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and React.</p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                      <div class="row justify-content-center ">
+                          <div class="col-lg-12">
+                            <div class="card mx-auto border-secondary" style="width: 18rem;">
+                              <img src="images/data-science.jpg" class="card-img-top" alt="...">
+                              <div class="card-body bg-secondary">
+                                <h5 class="card-title text-light cert-name title">Python for Data Science and Machine Learning Bootcamp</h5>
+                                <p class="card-text text-light">Instructed by Jose Portilla.<br> Topics included pandas, NumPy, Matplotlib, Seaborn, SciKit-Learn, and various machine learning algorithms.</p>
+                                <a href="#" class="btn btn-outline-light cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="row justify-content-center ">
+                      <div class="col-lg-12">
+                          <div class="card mx-auto" style="width: 18rem;">
+                              <img src="images/comptia.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title cert-name title">CompTIA A+ Core 1 (220-1101) Complete Course & Practice Exam</h5>
+                                <p class="card-text">Focused on developing foundational IT skills including networking, hardware, virtualization and cloud computing, and network troubleshooting. </p>
+                                <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobileElearning" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMobileElearning" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+
+
+            <h2 class="courses-label mx-auto title">Formal Education</h2>
+
+         <div id="carouselFormalEducation" class="carousel slide formal-education-row desktop-only" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-secondary" style="width: 24rem;">
+                          <img src="images/victoria-university.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name text-light title">Bachelor of Information Technology, Victoria University (Expected Graduation 2025)</h5>
+                            <p class="card-text text-light">Pursuing a comprehensive course of study focusing on key aspects of information technology, including software development, data management, network systems, cybersecurity, and IT project management. </p>
+                            <a href="#" class="btn btn-outline-light cert-btn title">See Bachelor</a>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-dark-blue" style="width: 24rem;">
+                          <img src="images/eca.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name text-light title">Diploma of Information Technology, ECA College, Sydney (Completed 2023)</h5>
+                            <p class="card-text text-light">Completed an intensive program that provided hands-on skills and theoretical knowledge in information technology. Topics covered include network fundamentals, programming principles, web development, database design and management, and IT project management.</p>
+                            <a href="#" class="btn btn-outline-light cert-btn title">See Diploma</a>
+                          </div>
+                        </div>
+                  </div>
+
+              </div>
+              </div>
+              <div class="carousel-item">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-light-blue" style="width: 24rem;">
+                          <img src="images/academies.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name title">Certificate IV in Business, Clarendon Business College, Sydney (Completed 2022)</h5>
+                            <p class="card-text">Acquired a solid foundation in key business concepts, including customer service, marketing basics, project management, and business communication. Developed practical skills through real-world business scenarios and case studies.</p>
+                            <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormalEducation" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFormalEducation" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+         <!--Mobile View -->
+
+        <div id="carouselFormalEducationMobile" class="carousel slide formal-education-row mobile-only" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-secondary" style="width: 22rem;">
+                          <img src="images/victoria-university.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name text-light title">Bachelor of Information Technology, Victoria University (Expected Graduation 2025)</h5>
+                            <p class="card-text text-light">Pursuing a comprehensive course of study focusing on key aspects of information technology, including software development, data management, network systems, cybersecurity, and IT project management. </p>
+                            <a href="#" class="btn btn-outline-light cert-btn title">See Bachelor</a>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-dark-blue" style="width: 22rem;">
+                          <img src="images/eca.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name text-light title">Diploma of Information Technology, ECA College, Sydney (Completed 2023)</h5>
+                            <p class="card-text text-light">Completed an intensive program that provided hands-on skills and theoretical knowledge in information technology. Topics covered include network fundamentals, programming principles, web development, database design and management, and IT project management.</p>
+                            <a href="#" class="btn btn-outline-light cert-btn title">See Diploma</a>
+                          </div>
+                        </div>
+                  </div>
+
+              </div>
+              </div>
+              <div class="carousel-item">
+               <div class="row justify-content-center">
+                  <div class="col-lg-12">
+                        <div class="card mx-auto bg-light-blue" style="width: 22rem;">
+                          <img src="images/academies.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title cert-name title">Certificate IV in Business, Clarendon Business College, Sydney (Completed 2022)</h5>
+                            <p class="card-text">Acquired a solid foundation in key business concepts, including customer service, marketing basics, project management, and business communication. Developed practical skills through real-world business scenarios and case studies.</p>
+                            <a href="#" class="btn btn-outline-secondary cert-btn title">See Certificate</a>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormalEducationMobile" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFormalEducationMobile" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        </div>
+    </section>
+
+    <section class="" id="projects">
+        <div class="container-fluid">
+            <h1 class="title">Projects</h1>
+            <p class="project-subtitle">This is what I do</p>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-4 col-md-6 mb-4 project-item">
+                        <a href="https://santiago-blog.onrender.com" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="images/blog.jpg" alt="Project 1">
+                            </div>
+                            <div class="project-info">
+                                <h5 class="title">Dynamic Personal Blog with Flask</h5>
+                                <p>Developed a responsive, dynamic, and user-friendly personal blog using Flask, a Python-based micro web framework.<br><br> The blog includes features such as user authentication, post creation, editing, and deletion, as well as user profile management.<br><br> Implemented a PostgreSQL database for efficient data management.</p>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="col-lg-4 col-md-6 mb-4 project-item">
+                        <a href="https://morse-code-converter.onrender.com" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="images/morse-code.jpg" alt="Project 1">
+                            </div>
+                            <div class="project-info">
+                                <h5 class="title">Real-Time Morse Code Converter with Flask</h5>
+                                <p> Built a real-time Morse Code converter using Flask.<br><br> The application takes user input as text and efficiently converts it into Morse Code.<br><br> Leveraged Flask's routing capabilities to ensure smooth navigation and user experience..</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 project-item">
+                        <a href="#" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="images/coming-soon.jpg" alt="Project 1">
+                            </div>
+                            <div class="project-info">
+                                <h5 class="title">Coming Soon</h5>
+                                <p>...</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer id="footer">
+            <div class="row footer-row">
+              <div class="col">
+                <a><i class="fa-brands fa-instagram socials"></i></a>
+                <a><i class="fa-brands fa-facebook socials"></i></a>
+                <a><i class="fa-brands fa-github socials"></i></a>
+                <p class="copyright">© Copyright 2023 </p>
+              </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

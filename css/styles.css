@@ -1,0 +1,369 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Backgrounds*/
+.bg-dark-blue {
+    background-color: #2C74B3;
+}
+
+.bg-light-blue {
+    background-color: #AEE2FF;
+}
+
+/*  Container */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navbar */
+
+.brand{
+    font-size: 2rem;
+}
+
+.nav-link{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+
+/*Title*/
+#title{
+    background-color: #2C74B3;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+.python-icon{
+    transform: rotate(-10deg);
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+
+}
+
+.javascript-icon{
+    transform: rotate(10deg);
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 250px;
+    height: 250px;
+    background-color: #144272;
+    top: 20%;
+    right:40%;
+}
+
+.circle2 {
+    width: 300px;
+    height: 300px;
+    background-color: #FFEA20;
+    top: 20%;
+    right:40%;
+}
+
+.profile-image {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    top: 40%;
+    left: 30%;
+    padding: 0 0 7rem;
+}
+
+
+/*About*/
+#about{
+    position: relative;
+    background-color: #205295;
+}
+
+.about-label{
+    margin: 0 0 2rem;
+}
+
+/*Experience*/
+
+#work{
+   color: black;
+   background-color: #fff;
+}
+
+.work-experience-label{
+    position: relative;
+    top: 3rem;
+    padding: 2rem 0;
+}
+
+.dd-icon{
+    margin: 0 2rem ;
+    width: 250px;
+    height: 125px;
+
+}
+
+.job-btn{
+    margin: 3rem 1rem;
+}
+
+.job-description{
+    text-align: left;
+
+}
+
+/*Education*/
+
+#education{
+    background-color: #144272;
+}
+#education .container-fluid{
+    padding: 0% 0 10%;
+}
+
+.courses-label{
+    padding: 4rem;
+}
+
+.e-learning-row{
+    padding: 2rem 0;
+    background-image: url("../images/e-learning.jpg");
+    background-position: center;
+}
+
+.formal-education-row{
+    padding: 2rem 0;
+    background-image: url("../images/formal-education.jpg");
+    background-position: center;
+}
+
+.cert-name{
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.cert-btn{
+    margin: 1rem 0;
+}
+
+/*Projects*/
+
+#projects{
+    background-color: #144272;
+}
+
+#projects .container-fluid{
+    padding: 0% 10% 7%;
+}
+
+.project-subtitle{
+    margin: 1rem 0 3rem;
+}
+
+.project-link{
+    text-decoration: none;
+}
+
+
+.project-item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px #144272, 0 1px 2px #144272 ;
+
+}
+
+.project-item:hover {
+    box-shadow: 0 14px 28px #022C43, 0 10px 10px #022C43;
+}
+
+.project-image img {
+    padding: 1rem 0 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.project-info {
+    margin: 0 0 1rem;
+    padding: 1rem;
+    background-color: #222831;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    text-align: left;
+}
+
+.project-info h5 {
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.project-info p {
+    margin-bottom: 1rem;
+}
+
+
+
+/*Footer*/
+
+#footer{
+    background-color: black;
+    padding: 7% 0;
+}
+
+.copyright{
+    color: #8f8f8f;
+}
+
+.socials{
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    padding: 1rem 0.7rem;
+}
+
+.socials:hover{
+    color: #2C74B3;
+}
+
+
+/*Tablet View*/
+
+@media (max-width:920px){
+    .desktop-only {
+      display: none;
+    }
+
+    .mobile-only {
+      display: block;
+    }
+
+/*Title*/
+
+    .python-icon{
+    width: 30%;
+    bottom: 50%;
+    left: 5%;
+    }
+
+    .javascript-icon{
+    width: 30%;
+    bottom: 50%;
+    right: 5%;
+    }
+
+    .circle1 {
+    width: 300px;
+    height: 300px;
+    background-color: #144272;
+    top: 20%;
+    right: 30%;
+
+    }
+
+    .circle2 {
+    width: 350px;
+    height: 350px;
+    background-color: #FFEA20;
+    top: 20%;
+    right: 30%;
+
+    }
+
+    .profile-image {
+    left: 25%;
+    }
+
+/*Experience*/
+
+    .work-experience-label{
+        position: static;
+        padding: 0 0 2rem;
+    }
+
+    .dd-icon{
+        margin: 3rem 2rem;
+    }
+
+
+}
+
+/* Mobile View */
+
+@media (max-width: 420px){
+    .desktop-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: block;
+    }
+
+/*Title*/
+
+    .python-icon{
+        width: 30%;
+        bottom: 55%;
+        left: -1%;
+    }
+
+    .javascript-icon{
+        width: 30%;
+        bottom: 55%;
+        left: 68%;
+    }
+
+    .circle1 {
+        width: 200px;
+        height: 200px;
+        top: 27%;
+        right: 20%;
+
+    }
+
+    .circle2 {
+        width: 250px;
+        height: 250px;
+        top: 27%;
+        right: 20%;
+
+    }
+
+/*Experience*/
+
+    .dd-icon{
+        width: 220px;
+        height: 110px;
+        margin: 0;
+    }
+
+
+}
